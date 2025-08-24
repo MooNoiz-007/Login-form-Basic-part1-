@@ -34,9 +34,9 @@ input, label, a {
 }
 
 .login-form h1 {
-    margin-top: 70%;
+    margin-top: 70px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .login-form label {
@@ -44,9 +44,9 @@ input, label, a {
     margin-top: 30px;
 }
 
-.loging-form input {
+.login-form input {
     width: 100%;
-    margin-top: 20px; 
+    margin-bottom: 20px;
 }
 
 .login-form input:not([type="submit"]) {
@@ -60,7 +60,7 @@ input, label, a {
     height: 40px;
 }
 
-.login-form inout[type="submit"] {
+.login-form input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
